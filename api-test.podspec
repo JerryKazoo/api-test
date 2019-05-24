@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   #s.source_files = '*'
-  s.vendored_frameworks = 'DApi.framework'
+  s.frameworks = 'DApi'
+  #s.vendored_frameworks = 'DApi.framework'
 
   # s.resource_bundles = {
   #   'api-test' => ['api-test/Assets/*.png']
