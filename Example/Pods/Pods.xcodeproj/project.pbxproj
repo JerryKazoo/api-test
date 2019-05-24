@@ -21,6 +21,7 @@
 
 /* Begin PBXBuildFile section */
 		09427E220B34FE3EE0977CFBC01BB510 /* Pods-api-test_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A554A8EC72E429BC78032E2A1A966B5 /* Pods-api-test_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C4CAFA92297C57600762859 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4CAFA82297C57600762859 /* Test.m */; };
 		37CB1B8B1CA294A7EBF02EE9EAA4B519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3BAABDBA69320E0DBC9A588C70CA27BB /* Pods-api-test_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC58696D42D916A6D7789A9D5CB6BC0D /* Pods-api-test_Tests-dummy.m */; };
 		C5BFA594E2B6B1129A4AC102742042E9 /* Pods-api-test_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DA8BF14693218E2D4A7E93FB5AB9AD /* Pods-api-test_Example-dummy.m */; };
@@ -50,6 +51,8 @@
 		039BD1E14FE314DFDCEADD124D9A9724 /* Pods-api-test_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-api-test_Example-frameworks.sh"; sourceTree = "<group>"; };
 		03FA05FBCB86815528F3881BF5B67141 /* Pods-api-test_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-api-test_Example.modulemap"; sourceTree = "<group>"; };
 		08DA8BF14693218E2D4A7E93FB5AB9AD /* Pods-api-test_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-api-test_Example-dummy.m"; sourceTree = "<group>"; };
+		0C4CAFA72297C56A00762859 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		0C4CAFA82297C57600762859 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		1C4E808FA9CD9BB6D9DE7B4445E92806 /* Pods-api-test_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-api-test_Tests-Info.plist"; sourceTree = "<group>"; };
 		20C012C30F7C841A3A08A84BC4F7F2A6 /* Pods-api-test_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-api-test_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -112,6 +115,8 @@
 			children = (
 				46679BD5F0FB8EA2977CD6C914922B62 /* DApi.framework */,
 				CBEE87E53B7BD8E41C7AAFDBBABF0661 /* Support Files */,
+				0C4CAFA72297C56A00762859 /* Test.h */,
+				0C4CAFA82297C57600762859 /* Test.m */,
 			);
 			path = "api-test";
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5BFA594E2B6B1129A4AC102742042E9 /* Pods-api-test_Example-dummy.m in Sources */,
+				0C4CAFA92297C57600762859 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

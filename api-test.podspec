@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'api-test'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'A short description of api-test.'
 
 # This description is used to generate tags and improve search results.
