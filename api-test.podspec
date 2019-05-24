@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'api-test'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'A short description of api-test.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.platform = :ios, '9.0'
   s.ios.deployment_target = '9.0'
 
-  s.source_files = "api-test/*.h", "api-test/*.m"
+  s.source_files = 'Classes/*.{h,m}', 'Classes/*.framework'
   #s.frameworks = 'DApi'
   #s.vendored_frameworks = 'DApi.framework'
 
