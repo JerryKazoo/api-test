@@ -1,0 +1,16 @@
+PODS:
+  - api-test (0.1.0)
+
+DEPENDENCIES:
+  - api-test
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - api-test
+
+SPEC CHECKSUMS:
+  api-test: ca486cd164536ba8c660a7bb1abbde0e441967a9
+
+PODFILE CHECKSUM: 07d77c9d78c4f2fffa326aa704f83a34a86e33c8
+
+COCOAPODS: 1.6.2

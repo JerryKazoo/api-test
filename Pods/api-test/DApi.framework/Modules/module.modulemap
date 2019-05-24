@@ -1,0 +1,6 @@
+framework module DApi {
+  umbrella header "DApi.h"
+
+  export *
+  module * { export * }
+}

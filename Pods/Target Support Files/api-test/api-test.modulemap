@@ -1,0 +1,6 @@
+framework module api_test {
+  umbrella header "api-test-umbrella.h"
+
+  export *
+  module * { export * }
+}

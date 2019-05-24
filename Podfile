@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'api-test_Example' do
+  pod 'api-test'
+
+  target 'api-test_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
