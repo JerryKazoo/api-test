@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.platform = :ios, '9.0'
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'api-test/*.h', 'api-test/*.m'
+  s.source_files = "api-test/*.h", "api-test/*.m"
   #s.frameworks = 'DApi'
   #s.vendored_frameworks = 'DApi.framework'
 
