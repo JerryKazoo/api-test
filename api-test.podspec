@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   #s.source_files = '*'
-  s.frameworks = 'DApi'
+  #s.frameworks = 'DApi'
   #s.vendored_frameworks = 'DApi.framework'
 
   # s.resource_bundles = {
