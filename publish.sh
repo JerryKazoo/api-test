@@ -20,8 +20,8 @@ generate_post_data()
 EOF
 }
 
-#echo "Create release $version for repo: $repo_full_name branch: $branch"
-#curl --data "$(generate_post_data)" "https://api.github.com/repos/$repo_full_name/releases?access_token=$token"
+echo "Create release $version for repo: $repo_full_name branch: $branch"
+curl --data "$(generate_post_data)" "https://api.github.com/repos/$repo_full_name/releases?access_token=$token"
 
 sed "s/{version}/$version/g" podspec.src > api-test.podspec
 
