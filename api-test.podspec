@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'api-test'
-  s.version          = '0.2.6'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of api-test.'
 
 # This description is used to generate tags and improve search results.
@@ -25,15 +25,15 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jerry Chan' => 'jerry.chan@kazootechnology.com' }
-  s.source           = { :git => 'https://github.com/JerryKazoo/api-test.git', :tag => s.version.to_s }
+  s.source           = { :https => 'https://github.com/JerryKazoo/api-test2/raw/master/DApi.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :ios, '9.0'
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'api-test/Classes/**/*'
+  #s.source_files = 'api-test/Classes/**/*'
   #s.frameworks = 'DApi'
-  #s.vendored_frameworks = 'DApi.framework'
+  s.vendored_frameworks = 'DApi.framework'
 
   # s.resource_bundles = {
   #   'api-test' => ['api-test/Assets/*.png']
